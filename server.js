@@ -18,7 +18,7 @@ app.post('/guardar-respuestas', (req, res) => {
   res.status(200).json({ message: 'Respuestas guardadas con éxito', userId });
 });
 
-// Ruta para obtener respuestas por ID de usuario
+// Ruta para obtener respuestas por ID  dhjsjsdde usuario
 app.get('/obtener-respuestas/:userId', (req, res) => {
   const { userId } = req.params;
   const respuestas = respuestasDb[userId];
